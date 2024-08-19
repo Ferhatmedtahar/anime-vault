@@ -14,13 +14,15 @@ function Footer() {
         />
       </Link>
 
-      <Image
-        src="./logo.svg"
-        alt="logo"
-        width={47}
-        height={44}
-        className="object-contain"
-      />
+      <Link href="#hero" scroll={true}>
+        <Image
+          src="./logo.svg"
+          alt="logo"
+          width={47}
+          height={44}
+          className="object-contain"
+        />
+      </Link>
     </footer>
   );
 }
