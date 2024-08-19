@@ -4,7 +4,7 @@ import Link from "next/link";
 function Footer() {
   return (
     <footer className="sm:px-16 py-4 px-8 flex justify-between items-center gap-2 flex-wrap bg-[#161921]">
-      <Link href="https://github.com/Ferhatmedtahar">
+      <Link href="https://github.com/Ferhatmedtahar/anime-vault">
         <Image
           src="./github.svg"
           alt="logo"
